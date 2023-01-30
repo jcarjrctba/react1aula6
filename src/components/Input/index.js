@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
 
-const Input = ({ label, hideContent, passarValor }) => {
+const Input = ({ label, hideContent, passarValor, className }) => {
   return (
     <div>
-      <label for="input">{label}</label>
+      <label className={className} for="input">
+        {label}
+      </label>
       <input
         onChange={passarValor}
         type={hideContent ? "password" : "text"}

@@ -55,3 +55,7 @@ span {
   color: rgb(217 215 220);
   text-decoration: none;
 }
+
+.errorLabel {
+  color: red;
+}
